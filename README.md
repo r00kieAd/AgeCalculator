@@ -1,12 +1,12 @@
 <div align="center" id="top"> 
-  <img src="./.github/app.gif" alt="Age Calculator" />
+  <img src="images/growing-up.png" alt="Age Calculator" />
 
   &#xa0;
 
   <!-- <a href="https://webdevelopment.netlify.app">Demo</a> -->
 </div>
 
-<h1 align="center">WebDevelopment</h1>
+<h1 align="center">Age Calculator</h1>
 
 <p align="center">
   <img alt="Github top language" src="https://img.shields.io/github/languages/top/r00kieAd/AgeCalculator?color=56BEB8">
