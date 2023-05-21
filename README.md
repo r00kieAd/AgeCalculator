@@ -58,7 +58,7 @@ This is a Age Calculator Web App. This Web app tells you your age as per your in
 6. For Year, the preferred range is 1000 till last year Text display for year will have shadow around to distinguish it from others.
 7. For Error, input boxes will be colored red and won't change their appearance until error is corrected.
 8. An Error message will be displayed depending upon the error below each input boxes.
-9. Has a different layout for mobile screens.
+9. Has a different layouts for mobile screens, tablets and Desktop.
 
 ## :rocket: Technologies ##
 
