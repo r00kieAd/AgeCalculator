@@ -1,4 +1,4 @@
-var greenFlag = true;
+
 
 function buttonColor(flag) {
     if (flag == 1) {
@@ -9,14 +9,6 @@ function buttonColor(flag) {
 }
 
 function boxColor(flag, e) {
-    const inputs = document.querySelectorAll(".error");
-    // inputs.forEach(element => {
-    //     var x = element.style.visibility;
-    //     if (x == "visible") {
-    //         greenFlag = false;
-    //         return;
-    //     }
-    // });
     if (e.style.borderColor != 'rgb(255, 87, 87)') {
         if (flag == 1) {
             e.style.borderColor = "hsl(259, 100%, 65%)";
@@ -61,6 +53,7 @@ try {
         }
 
         if (error) {
+            document.querySelectorAll(".nums")[0].classList.remove("yyyy");
             return;
         }
 
@@ -97,8 +90,11 @@ try {
         }
 
         if (error) {
+            document.querySelectorAll(".nums")[0].classList.remove("yyyy");
             return;
         }
+
+        document.querySelectorAll(".nums")[0].classList.add("yyyy");
 
         ageCalculator(year, month, day);
     }
