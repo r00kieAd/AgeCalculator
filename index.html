@@ -29,23 +29,23 @@
               <div class="xyz">
                 <label for="day">Day: </label><br>
                 <input class="form-control form-control-lg form-control-sm" placeholder="DD" type="number" name="day" id="day"
-                  onmouseover="boxColor(1, this)" onmouseleave="boxColor(0, this)"><br>
+                  onmouseover="boxColor(1, this)" onmouseleave="boxColor(0, this)" oninput="checkTypeOf(this)"><br>
                 <p id="dayError" class="error">This field is required</p>
               </div>
             </div>
             <div class="col-lg-3 col-md-3 col-sm-3 offset-lg-1 col-auto">
               <div class="xyz">
                 <label for="month">Month: </label><br>
-                <input class="form-control form-control-lg form-control-sm" placeholder="MM" type="text" name="month" id="month"
-                  onmouseover="boxColor(1, this)" onmouseleave="boxColor(0, this)"><br>
+                <input class="form-control form-control-lg form-control-sm" placeholder="MM" type="number" name="month" id="month"
+                  onmouseover="boxColor(1, this)" onmouseleave="boxColor(0, this)" oninput="checkTypeOf(this)"><br>
                 <p id="monthError" class="error">This field is required</p>
               </div>
             </div>
             <div class="col-lg-3 col-md-2 col-sm-3 offset-lg-1 col-auto">
               <div class="xyz">
                 <label for="year">Year: </label><br>
-                <input class="form-control form-control-lg form-control-sm" placeholder="YYYY" type="text" name="year" id="year"
-                  onmouseover="boxColor(1, this)" onmouseleave="boxColor(0, this)"><br>
+                <input class="form-control form-control-lg form-control-sm" placeholder="YYYY" type="number" name="year" id="year"
+                  onmouseover="boxColor(1, this)" onmouseleave="boxColor(0, this)" oninput="checkTypeOf(this)"><br>
                 <p id="yearError" class="error">This field is required</p>
               </div>
             </div>
