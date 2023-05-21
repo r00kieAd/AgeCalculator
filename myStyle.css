@@ -105,6 +105,10 @@ h1 {
         padding: 5px;
     }
 
+    hr {
+        margin: 2px 0;
+    }
+
     button {
         right: inherit;
         bottom: 47px;
