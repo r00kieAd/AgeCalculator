@@ -28,7 +28,7 @@ try {
 
         var e = document.querySelectorAll(".error");
         var c = document.querySelectorAll("input");
-
+       // Found bug when entering month and year as 0 and its showing current year as age.
         if (day === '' && month === '' && year === '') {
             throwError("This field is required");
             return;
