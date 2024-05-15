@@ -1,5 +1,5 @@
 <div align="center" id="top"> 
-  <img src="images/growing-up.png" alt="Age Calculator" />
+  <img src="images/growing-up.png" alt="Age Calculator" width="50px" height="50px"/>
 
   &#xa0;
 
@@ -16,28 +16,14 @@
   <img alt="Repository size" src="https://img.shields.io/github/repo-size/r00kieAd/AgeCalculator?color=56BEB8">
 
   <img alt="License" src="https://img.shields.io/github/license/r00kieAd/AgeCalculator?color=56BEB8">
-
-  <!-- <img alt="Github issues" src="https://img.shields.io/github/issues/{{YOUR_GITHUB_USERNAME}}/webdevelopment?color=56BEB8" /> -->
-
-  <!-- <img alt="Github forks" src="https://img.shields.io/github/forks/{{YOUR_GITHUB_USERNAME}}/webdevelopment?color=56BEB8" /> -->
-
-  <!-- <img alt="Github stars" src="https://img.shields.io/github/stars/{{YOUR_GITHUB_USERNAME}}/webdevelopment?color=56BEB8" /> -->
 </p>
-
-<!-- Status -->
-
-<!-- <h4 align="center"> 
-	🚧  WebDevelopment 🚀 Under construction...  🚧
-</h4> 
-
-<hr> -->
+<hr>
 
 <p align="center">
   <a href="#dart-about">About</a> &#xa0; | &#xa0; 
   <a href="#sparkles-features">Features</a> &#xa0; | &#xa0;
   <a href="#rocket-technologies">Technologies</a> &#xa0; | &#xa0;
   <a href="#white_check_mark-requirements">Requirements</a> &#xa0; | &#xa0;
-  <a href="#checkered_flag-starting">Starting</a> &#xa0; | &#xa0;
   <a href="#memo-license">License</a> &#xa0; | &#xa0;
   <a href="https://github.com/{{YOUR_GITHUB_USERNAME}}" target="_blank">Author</a>
 </p>
@@ -46,7 +32,7 @@
 
 ## :dart: About ##
 
-This is a Age Calculator Web App. This Web app tells you your age as per your inputs in Years, Months and Days.
+This is a Age Calculator Web App. This Web app tells you your age as per your Date of Birth precisely in Years, Months and Days.
 
 ## :sparkles: Features ##
 
@@ -71,32 +57,14 @@ The following tools were used in this project:
 
 ## :white_check_mark: Requirements ##
 
-No Extra Requirements
-
-## :checkered_flag: Starting ##
-
-```bash
-# Clone this project
-$ git clone https://github.com/r00kieAd/AgeCalculator
-
-# Access
-$ cd AgeCalculator
-
-# Install dependencies
-$ yarn
-
-# Run the project
-$ yarn start
-
-# The server will initialize in the <http://localhost:3000>
-```
+No Extra Requirements other than making sure that your browser has load scripts option enabled.
 
 ## :memo: License ##
 
 This project is under license from FrontEnd Mentor and Adhyatma Dwivedi.
 
 
-Made with :heart: by <a href="https://github.com/r00kieAd" target="_blank">Adhyatma Dwivedi</a>
+Made with 💻: by <a href="https://github.com/r00kieAd" target="_blank">Adhyatma Dwivedi</a>
 
 &#xa0;
 
